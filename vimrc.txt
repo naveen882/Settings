@@ -1,0 +1,26 @@
+"se ts=4
+"se tabstop=4
+"se sts=4
+"se sw=4
+""Dont use this ,this was used in /etc/vimrc
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+se ic
+
+
+
+
+"use this ,this was used in ~/.vimrc
+au BufNewFile,BufRead *.py|
+    \ set tabstop=4|
+    \ set softtabstop=4|
+    \ set shiftwidth=4|
+    \ set textwidth=79|
+    \ set expandtab|
+    \ set autoindent|
+    \ set fileformat=unix|
+
+let python_highlight_all=1
+syntax on
+
+"let g:nerdtree_tabs_open_on_console_startup=1
+
